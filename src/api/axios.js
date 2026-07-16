@@ -3,7 +3,8 @@ import axios from "axios";
 
 const api = axios.create({
 
-    baseURL:"http://hms-backend.test/api",
+    // baseURL:"http://hms-backend.test/api",
+    baseURL:"https://hms-backend.ayelectronicss.com/api",
 
     headers:{
         Accept:"application/json",
